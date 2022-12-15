@@ -220,7 +220,7 @@ void map(){
 			again(); 
 			break;
 		}
-		else if(map[a][b]=="#" && nilai<10){	//ketika koordinat pacman = 0, tetapi score < 50, maka pemain kalah.
+		else if(map[a][b]=="#" && nilai<10){	//ketika koordinat character player = #, tetapi score < 10, maka pemain kalah.
 			system("cls");
 			cout << "\n\t\t\t\t          Yah, Target Tidak Tercapai  :(";
 			cout << "\n\n\t\t\t\t                    Nilai Anda: " << nilai;
